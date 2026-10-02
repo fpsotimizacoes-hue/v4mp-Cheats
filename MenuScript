@@ -4276,4 +4276,6 @@ Maid.DisconnectAll = function()
     for Idx, Val in pairs(Maid.Connections) do
         Val:Disconnect()
     end
-end
+end 
+return Library
+
